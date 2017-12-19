@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B328A34214A4B7A9A4B1F9CE /* Pods_BodyCalc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 367FFEE034F6C382C4685C36 /* Pods_BodyCalc.framework */; };
+		C83B18761FE7393F00E48824 /* BMRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B18751FE7393F00E48824 /* BMRViewController.swift */; };
+		C83B18781FE7589F00E48824 /* TDEEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B18771FE7589F00E48824 /* TDEEViewController.swift */; };
+		C83B187A1FE77FB100E48824 /* BodyFatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B18791FE77FB100E48824 /* BodyFatViewController.swift */; };
 		C8E07E0C1FE4F7280057DD41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E07E0B1FE4F7280057DD41 /* AppDelegate.swift */; };
 		C8E07E0E1FE4F7280057DD41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E07E0D1FE4F7280057DD41 /* ViewController.swift */; };
 		C8E07E111FE4F7280057DD41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8E07E0F1FE4F7280057DD41 /* Main.storyboard */; };
 		C8E07E131FE4F7280057DD41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8E07E121FE4F7280057DD41 /* Assets.xcassets */; };
 		C8E07E161FE4F7280057DD41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8E07E141FE4F7280057DD41 /* LaunchScreen.storyboard */; };
+		C8E07E1E1FE509130057DD41 /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E07E1D1FE509130057DD41 /* BMIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		367FFEE034F6C382C4685C36 /* Pods_BodyCalc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BodyCalc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2AC71D1802CA35E28A5F0B6 /* Pods-BodyCalc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BodyCalc.release.xcconfig"; path = "Pods/Target Support Files/Pods-BodyCalc/Pods-BodyCalc.release.xcconfig"; sourceTree = "<group>"; };
+		C83B18751FE7393F00E48824 /* BMRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMRViewController.swift; sourceTree = "<group>"; };
+		C83B18771FE7589F00E48824 /* TDEEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDEEViewController.swift; sourceTree = "<group>"; };
+		C83B18791FE77FB100E48824 /* BodyFatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyFatViewController.swift; sourceTree = "<group>"; };
 		C8E07E081FE4F7280057DD41 /* BodyCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BodyCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E07E0B1FE4F7280057DD41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8E07E0D1FE4F7280057DD41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,8 @@
 		C8E07E121FE4F7280057DD41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8E07E151FE4F7280057DD41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8E07E171FE4F7280057DD41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E07E1D1FE509130057DD41 /* BMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
+		FBFA44F7A3E8C8A6BD37EE26 /* Pods-BodyCalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BodyCalc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BodyCalc/Pods-BodyCalc.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B328A34214A4B7A9A4B1F9CE /* Pods_BodyCalc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4968FA475FCB1822E2BBD14A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBFA44F7A3E8C8A6BD37EE26 /* Pods-BodyCalc.debug.xcconfig */,
+				C2AC71D1802CA35E28A5F0B6 /* Pods-BodyCalc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C8E07DFF1FE4F7270057DD41 = {
 			isa = PBXGroup;
 			children = (
 				C8E07E0A1FE4F7280057DD41 /* BodyCalc */,
 				C8E07E091FE4F7280057DD41 /* Products */,
+				4968FA475FCB1822E2BBD14A /* Pods */,
+				D9261D7259E991ED87E0FC47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +80,24 @@
 			children = (
 				C8E07E0B1FE4F7280057DD41 /* AppDelegate.swift */,
 				C8E07E0D1FE4F7280057DD41 /* ViewController.swift */,
+				C8E07E1D1FE509130057DD41 /* BMIViewController.swift */,
+				C83B18751FE7393F00E48824 /* BMRViewController.swift */,
+				C83B18771FE7589F00E48824 /* TDEEViewController.swift */,
+				C83B18791FE77FB100E48824 /* BodyFatViewController.swift */,
 				C8E07E0F1FE4F7280057DD41 /* Main.storyboard */,
 				C8E07E121FE4F7280057DD41 /* Assets.xcassets */,
 				C8E07E141FE4F7280057DD41 /* LaunchScreen.storyboard */,
 				C8E07E171FE4F7280057DD41 /* Info.plist */,
 			);
 			path = BodyCalc;
+			sourceTree = "<group>";
+		};
+		D9261D7259E991ED87E0FC47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				367FFEE034F6C382C4685C36 /* Pods_BodyCalc.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8E07E1A1FE4F7280057DD41 /* Build configuration list for PBXNativeTarget "BodyCalc" */;
 			buildPhases = (
+				8D8350FF21D0DC489FCBE71D /* [CP] Check Pods Manifest.lock */,
 				C8E07E041FE4F7280057DD41 /* Sources */,
 				C8E07E051FE4F7280057DD41 /* Frameworks */,
 				C8E07E061FE4F7280057DD41 /* Resources */,
+				0978A10BF09DBA7FA4A2E3E9 /* [CP] Embed Pods Frameworks */,
+				99B0F087A5E42647CB7D45E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +170,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0978A10BF09DBA7FA4A2E3E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BodyCalc/Pods-BodyCalc-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ScrollableGraphView/ScrollableGraphView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableGraphView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BodyCalc/Pods-BodyCalc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D8350FF21D0DC489FCBE71D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BodyCalc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99B0F087A5E42647CB7D45E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BodyCalc/Pods-BodyCalc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C8E07E041FE4F7280057DD41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C83B187A1FE77FB100E48824 /* BodyFatViewController.swift in Sources */,
 				C8E07E0E1FE4F7280057DD41 /* ViewController.swift in Sources */,
+				C8E07E1E1FE509130057DD41 /* BMIViewController.swift in Sources */,
+				C83B18761FE7393F00E48824 /* BMRViewController.swift in Sources */,
 				C8E07E0C1FE4F7280057DD41 /* AppDelegate.swift in Sources */,
+				C83B18781FE7589F00E48824 /* TDEEViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +369,14 @@
 		};
 		C8E07E1B1FE4F7280057DD41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBFA44F7A3E8C8A6BD37EE26 /* Pods-BodyCalc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TQGSC4BKSA;
+				DEVELOPMENT_TEAM = 3HKK9JZT88;
 				INFOPLIST_FILE = BodyCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jodycbailey.BodyCalc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jodybailey.BodyCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,13 +385,14 @@
 		};
 		C8E07E1C1FE4F7280057DD41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2AC71D1802CA35E28A5F0B6 /* Pods-BodyCalc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TQGSC4BKSA;
+				DEVELOPMENT_TEAM = 3HKK9JZT88;
 				INFOPLIST_FILE = BodyCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jodycbailey.BodyCalc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jodybailey.BodyCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
